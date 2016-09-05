@@ -29,3 +29,19 @@ node_modules/
 # output
 output/
 output.tar.gz
+www/static/lib/jquery/src/event/support.js
+*.js
+*.project
+www/static/lib/angular-resource/.bower.json
+*.map
+www/static/lib/angular-resource/bower.json
+*.json
+www/static/lib/angular-resource/LICENSE.md
+*.md
+www/static/lib/angular/angular-csp.css
+*.gzip
+www/static/lib/jquery/MIT-LICENSE.txt
+*.yml
+www/static/lib/sea/LICENSE
+www/static/lib/sea/requirements.txt
+*.project
