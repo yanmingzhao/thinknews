@@ -45,3 +45,5 @@ www/static/lib/jquery/MIT-LICENSE.txt
 www/static/lib/sea/LICENSE
 www/static/lib/sea/requirements.txt
 *.project
+*.css
+www/static/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot
