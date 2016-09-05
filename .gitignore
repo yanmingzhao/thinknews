@@ -29,6 +29,7 @@ node_modules/
 # output
 output/
 output.tar.gz
+www/static/lib/*
 www/static/lib/jquery/src/event/support.js
 *.js
 *.project
