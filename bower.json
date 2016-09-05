@@ -1,0 +1,23 @@
+{
+  "name": "thinkjs-project",
+  "description": "project created by thinkjs",
+  "main": "",
+  "authors": [
+    "yanmingzhao <zhaoyanmingfei@qq.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/75team/thinkjs2-demos",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/static/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.3.0",
+    "jquery": "1.11.0",
+    "sea": "^2.0.2"
+  }
+}

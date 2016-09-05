@@ -1,0 +1,11 @@
+{ fieldName: 'file',
+  originalFilename: 'QQ图片20160905170807.png',
+  path: 'F:\\proj\\thinkjs_demos\\thinkjs2-demos\\model-mysql\\app\\common\\runtime\\upload\\V0H4dU33LHSsC1qIgHB9kLuB.png',
+  headers:
+   { 'content-disposition': 'form-data; name="file"; filename="QQ图片20160905170807.png"',
+     'content-type': 'image/png' },
+  size: 37200 }
+WHiDm1RC1M2Tu8YaKISZ7oGQ_rCSYANssvzbJNoH:58MjCIIw8qqoPt1xdb8miLCv5Aw=:eyJzY29wZSI6Im1pbmc6VjBINGRVMzNMSFNzQzFxSWdIQjlrTHVCLnBuZyIsImRlYWRsaW5lIjoxNDczMDg2NDA3fQ==
+Fo8_9K94nZKk1MKx_CBIPWeaIOvv V0H4dU33LHSsC1qIgHB9kLuB.png undefined
+{ hash: 'Fo8_9K94nZKk1MKx_CBIPWeaIOvv',
+  key: 'V0H4dU33LHSsC1qIgHB9kLuB.png' }
