@@ -47,3 +47,15 @@ www/static/lib/sea/requirements.txt
 *.project
 *.css
 www/static/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot
+*.less
+www/static/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff
+*.jscsrc
+www/static/lib/bootstrap/js/.jshintrc
+*.jshintrc
+www/static/lib/bootstrap/less/.csslintrc
+*.woff2
+www/static/lib/bootstrap/fonts/glyphicons-halflings-regular.woff
+*.ttf
+www/static/lib/bootstrap/fonts/glyphicons-halflings-regular.svg
+*.eot
+www/static/lib/bootstrap/LICENSE
