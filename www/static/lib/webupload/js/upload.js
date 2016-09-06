@@ -385,6 +385,7 @@
             } );
 
             percent = total ? loaded / total : 0;
+            
 
 
             spans.eq( 0 ).text( Math.round( percent * 100 ) + '%' );
@@ -439,11 +440,13 @@
                     break;
 
                 case 'ready':
+                	
                     $placeHolder.addClass( 'element-invisible' );
                     $( '#filePicker2' ).removeClass( 'element-invisible');
                     $queue.show();
                     $statusBar.removeClass('element-invisible');
                     uploader.refresh();
+                    window.value = true;
                     break;
 
                 case 'uploading':
@@ -471,6 +474,7 @@
                 case 'finish':
                     stats = uploader.getStats();
                     if ( stats.successNum ) {
+                    	window.hello = true;
                         alert( '上传成功' );
                     } else {
                         // 没有成功的图片，重设
