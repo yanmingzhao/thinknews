@@ -201,7 +201,16 @@
             id: '#filePicker2',
             label: '继续添加'
         });
-
+        //上传成功进行回调
+		uploader.on('uploadSuccess',function(file,res){
+			var ele = $("#imgs");
+			var val  = ele.val();
+			if(val==''){
+				ele.val(res)
+			}else{
+				ele.val(ele.val()+','+res);
+			}
+		});
         uploader.on('ready', function() {
             window.uploader = uploader;
         });
