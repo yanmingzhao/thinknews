@@ -28,12 +28,13 @@ $(function(){
 			}
 		});
 		if(end){
+			console.log($('form').serializeArray());
 			$.ajax({
 				type:"post",
 				url:"/index/adddata",
 				data:$('form').serializeArray()
 			}).then(function(data){
-				window.location.href = '/'
+				alert(data)
 			})
 		}
 		return false;

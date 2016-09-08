@@ -31,8 +31,7 @@ export default class extends Base {
 	    		src: 'http://7xt80d.com1.z0.glb.clouddn.com/' + basename,
 				width: getsize.width,
 				height: getsize.height,
-				title: post.name,
-				img:post.img
+				title: post.name
 	    	}
 			let success = await this.model('img').add(data);
 			this.json(success)

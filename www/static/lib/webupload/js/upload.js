@@ -203,7 +203,7 @@
         });
         //上传成功进行回调
 		uploader.on('uploadSuccess',function(file,res){
-			var ele = $("#imgs");
+			var ele = $("#"+img);
 			var val  = ele.val();
 			if(val==''){
 				ele.val(res)
