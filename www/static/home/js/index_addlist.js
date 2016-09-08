@@ -13,7 +13,6 @@ $(function(){
 	})
 	//处理信息
 	$('[type=submit]').click(function(e){
-		var data = $('form').serializeArray();
 		if(window.value&&window.hello==undefined){
 			alert('请先上传图片')
 			return false;
@@ -32,7 +31,7 @@ $(function(){
 			$.ajax({
 				type:"post",
 				url:"/index/adddata",
-				data:data
+				data:$('form').serializeArray()
 			}).then(function(data){
 				window.location.href = '/'
 			})
